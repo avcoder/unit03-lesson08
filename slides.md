@@ -18,8 +18,8 @@ mdc: true
 
 # Mongoose
 Back-End Development - part 8/12
-- [ ] Create/Read MongoDB documents with Mongoose models
 - [ ] Schemas and models
+- [ ] Create/Read MongoDB documents with Mongoose models
 - [ ] Update/Delete MongoDB documents with Mongoose models
 
 <div class="abs-br m-6 text-xl">
@@ -158,7 +158,6 @@ transition: slide-left
 ---
 
 # Exercise: Schemas
-(30 min) 
 
 - Challenge #2: Adjust the `Student` schema to include [validation](https://chanwingkeihaha.medium.com/validation-in-mongoose-where-how-and-handle-errors-b44f68cccae3) as follows:
    - String, required
@@ -171,8 +170,8 @@ transition: slide-left
 mongoose-practice/
 │
 ├── models/
-│   └── Student.js      # Schema and model definition
-├── app.js              # Main application
+│   └── Student.js      // where schema/model definition is exported
+├── index.js            // where you can import schema/model here
 └── package.json
 ```
 ---
