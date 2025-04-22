@@ -142,9 +142,39 @@ transition: slide-left
 
 - What are schemas and models?
 - See [schema docs](https://mongoosejs.com/docs/guide.html)
+   - Everything starts with a schema which defines the shape of the documents
 - See [schema types](https://mongoosejs.com/docs/schematypes.html)
 - See [model docs](https://mongoosejs.com/docs/models.html)
+   - Models create, read, update, delete documents from the database
+- Challenge #1:
+   1. Define a schema for a `Student` with the following fields: `name`, `age`, `isEnrolled`
+   1. Create a Model from the Schema
+   1. Create a new student and save it to DB
 
+Goto next slide...
+
+---
+transition: slide-left
+---
+
+# Exercise: Schemas
+(30 min) 
+
+- Challenge #2: Adjust the `Student` schema to include [validation](https://chanwingkeihaha.medium.com/validation-in-mongoose-where-how-and-handle-errors-b44f68cccae3) as follows:
+   - String, required
+   - age: Number, required, must be at least 16
+   - isEnrolled: Boolean, default to true
+   - grades: Array of numbers
+
+- Stretch goal: Reorganize folder structure to emulate the following:
+```
+mongoose-practice/
+│
+├── models/
+│   └── Student.js      # Schema and model definition
+├── app.js              # Main application
+└── package.json
+```
 ---
 layout: image-right
 transition: slide-left
