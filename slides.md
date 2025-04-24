@@ -144,11 +144,10 @@ transition: slide-left
 (30 min) 
 
 - What are schemas and models?
-- See [schema docs](https://mongoosejs.com/docs/guide.html)
+- Read ["Defining your schema"](https://mongoosejs.com/docs/guide.html)
    - Everything starts with a schema which defines the shape of the documents
-- See [schema types](https://mongoosejs.com/docs/schematypes.html)
-- See [model docs](https://mongoosejs.com/docs/models.html)
-   - Models create, read, update, delete documents from the database
+- Read ["What is a SchemaType"](https://mongoosejs.com/docs/schematypes.html) to be aware of all 15 schema types
+- Read ["Compiling your first model" and "Constructing Documents"](https://mongoosejs.com/docs/models.html) to know how Models are used
 - Challenge #1:
    1. Define a schema for a `Student` with the following fields: `name`, `age`, `isEnrolled`
    1. Create a Model from the Schema
