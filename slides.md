@@ -230,7 +230,7 @@ transition: slide-left
 # Exercise #3: CRUD with Models
 (30 min) 
 
-Time to put our previous foodtruck Express app, with mongoose/mongo! Time to put it all together.  Your mission: Implement the following CRUD operations for our Express [food truck/orders app](https://github.com/avcoder/food-truck-express).  May ask ChatGPT: "in learning mongoose/mongodb and express, how do i incorporate a basic find command inside a route?"
+Time to put our previous foodtruck Express app, with mongoose/mongo and put it all together.  Your mission: Implement the following CRUD operations for our Express [food truck/orders app](https://github.com/avcoder/food-truck-express).  May ask ChatGPT: "in learning mongoose/mongodb and express, how do i incorporate a basic find command inside a route?"
 
 - Read ["Querying" section](https://mongoosejs.com/docs/models.html#querying)
    - Test it out; convince yourself it works in your basic mongoose index.js file
