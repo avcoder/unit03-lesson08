@@ -81,9 +81,7 @@ transition: slide-left
 # Exercise #1: Mongoose
 (30 mins)
 
-- create new basic node project
-- in compass, click cluster's 3-dot-menu > copy Connection String
-- `npm i mongoose`
+- create new basic node project (in compass, copy Connection String)
 ```js
 const mongoose = require('mongoose');
 // paste connection string below and
