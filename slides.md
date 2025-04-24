@@ -229,7 +229,7 @@ transition: slide-left
 # Exercise #3: CRUD with Models
 (30 min) 
 
-Implement the following CRUD operations for our food truck/orders app
+Implement the following CRUD operations for our Express [food truck/orders app](https://github.com/avcoder/food-truck-express)
 
 - Read ["Querying" section](https://mongoosejs.com/docs/models.html#querying)
    - Create an endpoint that returns all data
