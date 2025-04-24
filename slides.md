@@ -228,9 +228,13 @@ class: text-left
 transition: slide-left
 ---
 
-# Exercise #3: Create and Read with Models
+# Exercise #3: CRUD with Models
 (30 min) 
 
+- Read ["Querying", "Deleting", and "Updating" sections](https://mongoosejs.com/docs/models.html)
+- Do CRUD operations for our food truck/orders app
+
+💡 Apply CRUD operations to your personal project 💡
 
 <!--
 -->
