@@ -234,7 +234,8 @@ transition: slide-left
 - Read ["Querying", "Deleting", and "Updating" sections](https://mongoosejs.com/docs/models.html)
 - Do CRUD operations for our food truck/orders app
 
-💡 Apply CRUD operations to your personal project 💡
+💡 Apply CRUD operations to your personal project 
+
 
 <!--
 -->
@@ -244,7 +245,7 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Exercise #4: Update and Delete with Models
+# Exercise #4: 
 (remainder of time) 
 
 - 
