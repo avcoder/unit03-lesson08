@@ -233,13 +233,14 @@ transition: slide-left
 Time to put our previous foodtruck Express app, with mongoose/mongo! You now have all the info needed to put it all together.  Your mission: Implement the following CRUD operations for our Express [food truck/orders app](https://github.com/avcoder/food-truck-express)
 
 - Read ["Querying" section](https://mongoosejs.com/docs/models.html#querying)
-   - Create an endpoint that returns all data
-   - Create an endpoint that returns one data based on a search criteria (by name for example)
+   - Test it out; convince yourself it works in your basic mongoose index.js file
+   - Create an express foodtruck endpoint that returns all data 
 - Read ["Deleting" section](https://mongoosejs.com/docs/models.html#deleting)
+   - Test it out: convince yourself it works in your basic mongoose index.js file
    - Create a delete endpoint based on id
 - Read ["Updating" section](https://mongoosejs.com/docs/models.html#updating)
+   - Test it out: convince yourself it works in your basic mongoose index.js file
    - Create an update endpoint based on search/replace criteria
-
 
 💡 Apply CRUD operations to your personal project 
 
