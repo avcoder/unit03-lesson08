@@ -136,6 +136,26 @@ createOrder({
 - Notice we used mongoose's `createOrder({})` rather than mongoDB's `db.orders.insertOne({})`
 - So how did mongoose know to target `orders` collection within the foodtruck database?
 
+Goto next slide
+
+---
+transition: slide-left
+---
+
+# Exercise #1 continued: 💡 Personal Project Ideas 💡
+
+Take what you've just learned and apply it to your personal interest (see below for project ideas). Whatever idea you choose, we'll use it thoughout the next several weeks.  After each group exercise, you will be asked to incrementally apply what you've learned to your personal project.
+
+- 📈 Task Management App: Create a Task schema with title, description, completed, and dueDate
+- 🍉 Grocery List App | Schema: name, quantity, purchased (Boolean), category
+- 👩‍🏫 Student Attendance Tracker | Schema: studentName, class, date, isPresent
+- 🎥 Movie Watchlist | Schema: movieTitle, watched, genre, rating
+- 🏃‍♂️ Habit Tracker | Schema: habitName, startDate, streakCount, completedToday
+- ☎️ Contact Manager | Schema: name, email, phone, isFavorite
+- 📚 Book Library | Schema: title, author, isCheckedOut, checkedOutBy, dueDate
+- 🛒 Simple E-commerce Product Catalog | Schema: productName, price, inStock, categories, description
+- 💡 whatever hobby/interest you like 
+
 ---
 transition: slide-left
 ---
@@ -176,6 +196,9 @@ mongoose-practice/
 ├── index.js            // where you can import schema/model here
 └── package.json
 ```
+
+💡 Apply Schemas with validation to your personal project 💡
+
 ---
 layout: image-right
 transition: slide-left
