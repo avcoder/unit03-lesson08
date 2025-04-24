@@ -250,7 +250,7 @@ transition: slide-left
 
 - Download or `git clone` my [basic HTML table page](https://github.com/avcoder/basic-table) that should work for your project idea
 - Put it in a new folder which you can launch with "Go Live"
-- Modify the table to fit your project app
+- Modify the table columns to fit your project app's needs
 - Add client-side JavaScript (can use ChatGPT to help scaffold some quick ideas) to fetch from your express endpoints
 - Challenge #1: display data upon requesting from your GET all endpoint
 - Challenge #2: delete a row upon requesting from your DELETE endpoint
