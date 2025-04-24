@@ -61,8 +61,8 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Exercise: Mongoose
-(30 min) Install mongoose and use it in our node app to interact with mongoDB
+# Mongoose
+(10 min) Install mongoose and use it in our node app to interact with mongoDB
 
 - mongoose is an ODM (similar to ORM but used with document databases instead of relational)
    - a library that helps us talk to the database with our preferred programming language
@@ -78,14 +78,17 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Exercise: Mongoose
+# Exercise #1: Mongoose
+(30 mins)
+
 - create new basic node project
 - in compass, click cluster's 3-dot-menu > copy Connection String
 - `npm i mongoose`
 ```js
 const mongoose = require('mongoose');
-// paste connection string below  
-mongoose.connect('mongodb://some-path-name/DBname') // Ensure DBname is present otherwise data will go to test db
+// paste connection string below and
+// Ensure DBname is present otherwise data will go to test db
+mongoose.connect('mongodb://some-path-name/DBname') 
 ```
 - then we need to create a Schema (this is our mongoose's way of wrapping structure and validation around mongoDB to ensure you can't just randomly insert new properties)
 ```js
@@ -107,7 +110,7 @@ Goto next slide
 transition: slide-left
 ---
 
-# Exercise: Mongoose
+# Exercise #1 continued: Mongoose
 
 ```js
 async function createOrder(order) {
@@ -137,7 +140,7 @@ createOrder({
 transition: slide-left
 ---
 
-# Exercise: Schemas
+# Exercise #2: Schemas
 (30 min) 
 
 - What are schemas and models?
@@ -157,7 +160,7 @@ Goto next slide...
 transition: slide-left
 ---
 
-# Exercise: Schemas
+# Exercise #2 continued: Schemas
 
 - Challenge #2: Adjust the `Student` schema to include [validation](https://chanwingkeihaha.medium.com/validation-in-mongoose-where-how-and-handle-errors-b44f68cccae3) as follows:
    - String, required
@@ -204,7 +207,7 @@ class: text-left
 transition: slide-left
 ---
 
-# Exercise 
+# Exercise #3: Create and Read with Models
 (30 min) 
 
 
@@ -216,8 +219,8 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Exercise
-(30 min) 
+# Exercise #4: Update and Delete with Models
+(remainder of time) 
 
 - 
 
