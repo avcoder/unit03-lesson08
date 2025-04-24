@@ -231,7 +231,9 @@ transition: slide-left
 # Exercise #3: CRUD with Models
 (30 min) 
 
-- Read ["Querying", "Deleting", and "Updating" sections](https://mongoosejs.com/docs/models.html)
+- Read ["Querying" section](https://mongoosejs.com/docs/models.html#querying)
+- Read ["Deleting" section](https://mongoosejs.com/docs/models.html#deleting)
+- Read ["Updating" section](https://mongoosejs.com/docs/models.html#updating)
 - Do CRUD operations for our food truck/orders app
 
 💡 Apply CRUD operations to your personal project 
