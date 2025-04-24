@@ -165,7 +165,7 @@ transition: slide-left
    - Everything starts with a schema which defines the shape of the documents
 - Read ["What is a SchemaType"](https://mongoosejs.com/docs/schematypes.html) to be aware of all 15 schema types
 - Read ["Compiling your first model" and "Constructing Documents"](https://mongoosejs.com/docs/models.html) to know how Models are used
-- Challenge #1:
+- Challenge #1: Create a new node app similar to Exercise #1 but this time...
    1. Define a schema for a `Student` with the following fields: `name`, `age`, `isEnrolled`
    1. Create a Model from the Schema
    1. Create a new student and save it to DB
