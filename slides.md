@@ -88,7 +88,9 @@ transition: slide-left
 const mongoose = require('mongoose');
 // paste connection string below and
 // Ensure DBname is present otherwise data will go to test db
-mongoose.connect('mongodb://some-path-name/DBname') 
+const connect = () => {
+  return mongoose.connect('mongodb://some-path-name/DBname') 
+}
 ```
 - then we need to create a Schema (this is our mongoose's way of wrapping structure and validation around mongoDB to ensure you can't just randomly insert new properties)
 ```js
@@ -113,23 +115,20 @@ transition: slide-left
 # Exercise #1 continued: Mongoose
 
 ```js
-async function createOrder(order) {
-  try {
-    const result = await Order.create(order);
-    console.log("Order created: ", result);
-  } catch (e) {
-    console.log("Error: ", err);
-  } finally {
-    mongoose.connection.close(); // what happens if you comment this line out?
-  }
-}
-
-createOrder({
-  id: 1, // what happens now if you try adding a new property that wasn't specified in the schema 
-  name: "albert", 
-  isReady: false,
-  orders: ["2 fries", "2 tacos"],
-});
+connect()
+  .then(async connection => {
+    const order = await Order.create({
+      name: "albert", 
+      isReady: false,
+      orders: ["2 fries", "2 tacos"],
+    });
+    console.log(order)
+    await mongoose.connection.close();
+  })
+  .catch((e) => {
+    console.error(e);
+    mongoose.connection.close();
+  });
 ```
 
 - run it to see if it inserted documents in the database (in Compass click refresh underneath Reset button)
