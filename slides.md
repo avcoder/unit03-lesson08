@@ -262,6 +262,8 @@ Download or `git clone` my [basic HTML table page](https://github.com/avcoder/ba
 - Modify the table columns to fit your project app's needs
 - Add client-side JavaScript (can use ChatGPT to help scaffold some quick ideas) to fetch from your express endpoints
 - Challenge #1: display all data upon requesting from your GET all endpoint
+
+Stretch goals below:
 - Challenge #2: delete a row upon requesting from your DELETE endpoint
 - Challenge #3: update a row upon requesting from your UPDATE endpoint
 - Challenge #4: create a new row upon requesting from your POST endpoint
