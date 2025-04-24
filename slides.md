@@ -262,10 +262,12 @@ Download or `git clone` my [basic HTML table page](https://github.com/avcoder/ba
 - Challenge #1: display all data upon requesting from your GET all endpoint
 
 Stretch goals below:
-- Challenge #2: delete a row upon requesting from your DELETE endpoint
+- Challenge #2: delete a row upon requesting from your DELETE endpoint **
 - Challenge #3: update a row upon requesting from your UPDATE endpoint
 - Challenge #4: create a new row upon requesting from your POST endpoint
 - Challenge #5: filter data when a user types a keyword in the search box
+
+** Discuss: How should you handle the response?  Fetch GET / again to get all rows? or frontend solution? 
 
 
 
