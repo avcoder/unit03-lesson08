@@ -169,6 +169,7 @@ transition: slide-left
    1. Define a schema for a `Student` with the following fields: `name`, `age`, `isEnrolled`
    1. Create a Model from the Schema
    1. Create a new student and save it to DB
+   1. check Compass: Did data save to your Students collection?
 
 Goto next slide...
 
