@@ -229,11 +229,11 @@ transition: slide-left
 # Exercise #3: CRUD with Models
 (30 min) 
 
-Implement the following CRUD operations for our Express [food truck/orders app](https://github.com/avcoder/food-truck-express)
+Time to put our previous foodtruck Express app, with mongoose/mongo! You now have all the info needed to put it all together.  Your mission: Implement the following CRUD operations for our Express [food truck/orders app](https://github.com/avcoder/food-truck-express)
 
 - Read ["Querying" section](https://mongoosejs.com/docs/models.html#querying)
    - Create an endpoint that returns all data
-   - Create an endpoint that returns one data based on search criteria
+   - Create an endpoint that returns one data based on a search criteria (by name for example)
 - Read ["Deleting" section](https://mongoosejs.com/docs/models.html#deleting)
    - Create a delete endpoint based on id
 - Read ["Updating" section](https://mongoosejs.com/docs/models.html#updating)
