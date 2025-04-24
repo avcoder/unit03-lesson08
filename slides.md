@@ -179,12 +179,12 @@ transition: slide-left
 # Exercise #2 continued: Schemas
 
 - Challenge #2: Adjust the `Student` schema to include [validation](https://chanwingkeihaha.medium.com/validation-in-mongoose-where-how-and-handle-errors-b44f68cccae3) as follows:
-   - String, required
-   - age: Number, required, must be at least 16
-   - isEnrolled: Boolean, default to true
-   - grades: Array of numbers
+   - name: should be a String and must be a required field
+   - age: should be a Number, required, must be at least 16
+   - isEnrolled: should be Boolean whose default value is set to true
+   - grades: should be an Array of numbers
 
-- Stretch goal: Reorganize folder structure to emulate the following:
+- Stretch goal: Reorganize folder structure (hint use `module.exports = Order`) to emulate the following:
 ```
 mongoose-practice/
 │
