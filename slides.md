@@ -231,10 +231,16 @@ transition: slide-left
 # Exercise #3: CRUD with Models
 (30 min) 
 
+Implement the following CRUD operations for our food truck/orders app
+
 - Read ["Querying" section](https://mongoosejs.com/docs/models.html#querying)
+   - Create an endpoint that returns all data
+   - Create an endpoint that returns one data based on search criteria
 - Read ["Deleting" section](https://mongoosejs.com/docs/models.html#deleting)
+   - Create a delete endpoint based on id
 - Read ["Updating" section](https://mongoosejs.com/docs/models.html#updating)
-- Do CRUD operations for our food truck/orders app
+   - Create an update endpoint based on search/replace criteria
+
 
 💡 Apply CRUD operations to your personal project 
 
