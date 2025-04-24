@@ -237,10 +237,10 @@ Time to put our previous foodtruck Express app, with mongoose/mongo! You now hav
    - Create an express foodtruck endpoint that returns all data 
 - Read ["Deleting" section](https://mongoosejs.com/docs/models.html#deleting)
    - Test it out: convince yourself it works in your basic mongoose index.js file
-   - Create a delete endpoint based on id
+   - Create an express foodtruck endpoint that deletes based on id (or name)
 - Read ["Updating" section](https://mongoosejs.com/docs/models.html#updating)
    - Test it out: convince yourself it works in your basic mongoose index.js file
-   - Create an update endpoint based on search/replace criteria
+   - Create an express foodtruck update endpoint based on search/replace criteria
 
 💡 Apply CRUD operations to your personal project 
 
