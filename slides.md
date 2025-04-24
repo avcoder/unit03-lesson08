@@ -184,7 +184,7 @@ transition: slide-left
    - isEnrolled: should be Boolean whose default value is set to true
    - grades: should be an Array of numbers
 
-- Stretch goal: Reorganize folder structure (hint use `module.exports = Order`) to emulate the following:
+- Stretch goal: Reorganize folder structure (hint use `module.exports = Student`) to emulate the following:
 ```
 mongoose-practice/
 │
